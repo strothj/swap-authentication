@@ -1,0 +1,31 @@
+{
+  "type": "module",
+  "name": "swap-authentication",
+  "version": "1.0.0",
+  "description": "Swap API Authentication",
+  "imports": {
+    "#fetch": "./public/fetch/index.js",
+    "#firebase/auth": "./public/firebase/auth.js"
+  },
+  "scripts": {
+    "build": "npm-run-all tsc:build",
+    "dev": "npm-run-all --parallel serve tsc:watch",
+    "serve": "http-server public -c-1 -p 8080",
+    "tsc:build": "tsc -b",
+    "tsc:watch": "tsc -b --watch --preserveWatchOutput"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strothj/swap-authentication.git"
+  },
+  "homepage": "https://github.com/strothj/swap-authentication#readme",
+  "devDependencies": {
+    "@types/bootstrap": "^5.1.12",
+    "firebase": "^9.8.2",
+    "http-server": "^14.1.0",
+    "jsonwebtoken-esm": "^1.0.3",
+    "npm-run-all": "^4.1.5",
+    "type-fest": "^2.13.0",
+    "typescript": "~4.7.2"
+  }
+}
