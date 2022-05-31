@@ -59,7 +59,7 @@ live example:
 - Mock implementation code samples
   - https://github.com/strothj/swap-authentication
 - Mock implementation live example
-  - https://app.netlify.com/sites/swap-authentication/overview
+  - https://swap-authentication.netlify.app/
 - Mock extension code sample:
   - https://github.com/strothj/swap-authentication/blob/6e89dafdd08236f40c28c4d4c8d4e62e7fdc5d35/src/extension.ts
 
